@@ -64,6 +64,7 @@ function addRow(formattedWord, questionTranscription, answer) {
   
   const wordCell = document.createElement('td')
   wordCell.innerHTML = formattedWord.italics()
+  wordCell.style = 'padding-right: 30px;'
 
   const transCell = document.createElement('td')
   function makeA(text, unknown = false) {
