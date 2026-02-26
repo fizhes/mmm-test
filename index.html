@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+  <title>m(E|A|EH)rij</title>
+
+  <style>
+    body {
+      font: min(5vh, 4vw) 'Times New Roman';
+      background-color: lightgray;
+    }
+
+    button {
+      font: min(5vh, 4vw) 'Times New Roman';
+      background-color: #DDDDff;
+      margin: 32px;
+      cursor: pointer;
+      border-radius: 10px;
+      border: 3px solid black;
+    }
+
+    .center {
+      max-width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</script>
+</head>
+<body>
+  <div class="center">
+    <b style="font-size: 70%;">What vowel do these words have in SSBE, according to CUBE Dictionary?</b>
+
+    <table id="quiz-table"></table>
+    <button id="submit-button">Submit Guesses!</button>
+    <button id="copy-button" style="visibility: hidden;">Copy Results!</button>
+    <button id="again-button" style="visibility: hidden;">Play Again!</button>
+  </div>
+
+  <script src="js/words.js"></script>
+  <script src="js/main.js"></script>
+</body>
